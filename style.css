@@ -241,6 +241,9 @@ body.dark {
   align-items: center;
   justify-content: center;
 }
+.imagewrapper--project {
+  overflow: hidden;
+}
 .imagewrapper--git {
   height: 3rem;
   width: 3rem;
@@ -294,18 +297,6 @@ body.dark {
   font-family: "Roboto";
   letter-spacing: 0.77px;
   cursor: pointer;
-}
-.btn--market {
-  background-color: #282C34;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0.6rem 1rem;
-  gap: 0.4rem;
-}
-.btn--market p {
-  color: #1C1C1E;
 }
 .btn--event {
   background-color: #f2f2f7;
